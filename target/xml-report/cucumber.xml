@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="4" time="53.748">
+    <testcase classname="001_Ucak_Bileti" name="www.enuygun.com adresinden ucak rezervasyonu yapma" time="5.813">
+        <system-out>
+            <![CDATA[Given url_home_enuygun adresine giris yapilir...............................passed
+And Ucak Bileti sekmesine tiklanir..........................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="001_Ucak_Bileti" name="Lokasyon secilir" time="0.541">
+        <system-out>
+            <![CDATA[And Nereden textbox'ina bir "Londra" girilir................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="001_Ucak_Bileti" name="Lokasyon secilir 2" time="0.334">
+        <system-out>
+            <![CDATA[And Nereye textbox'ina bir "Paris" girilir..................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="001_Ucak_Bileti" name="" time="46.812">
+        <system-out>
+            <![CDATA[And Gidis Tarihi textbox'ina uygun bir tarih girilir........................passed
+And Donus Tarihi textbox'ina uygun bir tarih girilir........................passed
+And Ucuz bilet bul butonuna tiklanir........................................passed
+And Acilan sayfada ilk ucustaki sec butonuna tiklanir.......................passed
+And E-posta adresiniz textbox'ina gecerli bir e-posta adresi girilir........passed
+And Cep Telefonunuz textbox'ina gecerli bir gsm numarasi girilir............passed
+And Ad textbox'ina bir ad girilir...........................................passed
+And Soyad textbox'ina bir soyad girilir.....................................passed
+And Dogum Tarihi dropdown'dan gun-ay-yil secilir............................passed
+And Odemeye ilerle butonuna tiklanir........................................passed
+And Kart Numarasi textbox'ina kart numarasi girilir.........................passed
+And Son Kullanma Tarihi dropdown'dan ay-yil secilir.........................passed
+And CVC textbox'ina gecerli cvc no girilir..................................passed
+And Acik Riza Metni butonuna tiklanir.......................................passed
+Then Satin Al butonuna tiklanir.............................................passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>

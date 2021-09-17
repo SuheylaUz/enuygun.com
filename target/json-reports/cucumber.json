@@ -1,0 +1,326 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2021-09-17T12:00:48.217Z",
+        "line": 4,
+        "name": "www.enuygun.com adresinden ucak rezervasyonu yapma",
+        "description": "",
+        "id": "001-ucak-bileti;www.enuygun.com-adresinden-ucak-rezervasyonu-yapma",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5462939300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "url_home_enuygun adresine giris yapilir",
+            "match": {
+              "location": "enuygunProject.stepdefinitions.EnuygunStepdefinitions.adresineGirisYapilir()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 273274900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Ucak Bileti sekmesine tiklanir",
+            "match": {
+              "location": "enuygunProject.stepdefinitions.EnuygunStepdefinitions.sekmesineTiklanir()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@enuygun"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-09-17T12:00:54.055Z",
+        "line": 12,
+        "name": "Lokasyon secilir",
+        "description": "",
+        "id": "001-ucak-bileti;lokasyon-secilir;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 539281800,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Nereden textbox\u0027ina bir \"Londra\" girilir",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Londra\"",
+                  "offset": 24
+                }
+              ],
+              "location": "enuygunProject.stepdefinitions.EnuygunStepdefinitions.neredenTextboxInaBirLokasyonGirilir(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@enuygun"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-09-17T12:00:54.606Z",
+        "line": 18,
+        "name": "Lokasyon secilir",
+        "description": "",
+        "id": "001-ucak-bileti;lokasyon-secilir;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 332921200,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Nereye textbox\u0027ina bir \"Paris\" girilir",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Paris\"",
+                  "offset": 23
+                }
+              ],
+              "location": "enuygunProject.stepdefinitions.EnuygunStepdefinitions.nereyeTextboxInaBirLokasyonGirilir(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@enuygun"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-09-17T12:00:54.948Z",
+        "line": 20,
+        "name": "",
+        "description": "",
+        "id": "001-ucak-bileti;",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 879937800,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "Gidis Tarihi textbox\u0027ina uygun bir tarih girilir",
+            "match": {
+              "location": "enuygunProject.stepdefinitions.EnuygunStepdefinitions.gidisTarihiTextboxInaUygunBirTarihGirilir()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 788304700,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "Donus Tarihi textbox\u0027ina uygun bir tarih girilir",
+            "match": {
+              "location": "enuygunProject.stepdefinitions.EnuygunStepdefinitions.donusTarihiTextboxInaUygunBirTarihGirilir()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 14168440100,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "Ucuz bilet bul butonuna tiklanir",
+            "match": {
+              "location": "enuygunProject.stepdefinitions.EnuygunStepdefinitions.ucuzBiletBulButonunaTiklanir()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 9836548800,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "Acilan sayfada ilk ucustaki sec butonuna tiklanir",
+            "match": {
+              "location": "enuygunProject.stepdefinitions.EnuygunStepdefinitions.acilanSayfadaIlkUcustakiSecButonunaTiklanir()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 538646300,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "E-posta adresiniz textbox\u0027ina gecerli bir e-posta adresi girilir",
+            "match": {
+              "location": "enuygunProject.stepdefinitions.EnuygunStepdefinitions.ePostaAdresinizTextboxInaGecerliBirEPostaAdresiGirilir()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 171890200,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "Cep Telefonunuz textbox\u0027ina gecerli bir gsm numarasi girilir",
+            "match": {
+              "location": "enuygunProject.stepdefinitions.EnuygunStepdefinitions.cepTelefonunuzTextboxInaGecerliBirGsmNumarasiGirilir()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 174481600,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "Ad textbox\u0027ina bir ad girilir",
+            "match": {
+              "location": "enuygunProject.stepdefinitions.EnuygunStepdefinitions.adTextboxInaBirAdGirilir()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 169251700,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "Soyad textbox\u0027ina bir soyad girilir",
+            "match": {
+              "location": "enuygunProject.stepdefinitions.EnuygunStepdefinitions.soyadTextboxInaBirSoyadGirilir()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1010258100,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "Dogum Tarihi dropdown\u0027dan gun-ay-yil secilir",
+            "match": {
+              "location": "enuygunProject.stepdefinitions.EnuygunStepdefinitions.dogumTarihiDropdownDanGunAyYilSecilir()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5148576800,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "Odemeye ilerle butonuna tiklanir",
+            "match": {
+              "location": "enuygunProject.stepdefinitions.EnuygunStepdefinitions.odemeyeIlerleButonunaTiklanir()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 12160631400,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "Kart Numarasi textbox\u0027ina kart numarasi girilir",
+            "match": {
+              "location": "enuygunProject.stepdefinitions.EnuygunStepdefinitions.kartNumarasiTextboxInaKartNumarasiGirilir()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1324280400,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "Son Kullanma Tarihi dropdown\u0027dan ay-yil secilir",
+            "match": {
+              "location": "enuygunProject.stepdefinitions.EnuygunStepdefinitions.sonKullanmaTarihiDropdownDanAyYilSecilir()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 189057600,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "CVC textbox\u0027ina gecerli cvc no girilir",
+            "match": {
+              "location": "enuygunProject.stepdefinitions.EnuygunStepdefinitions.cvcTextboxInaGecerliCvcNoGirilir()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 115136500,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "Acik Riza Metni butonuna tiklanir",
+            "match": {
+              "location": "enuygunProject.stepdefinitions.EnuygunStepdefinitions.acikRizaMetniButonunaTiklanir()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 131394400,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "Satin Al butonuna tiklanir",
+            "match": {
+              "location": "enuygunProject.stepdefinitions.EnuygunStepdefinitions.satinAlButonunaTiklanir()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@enuygun"
+          }
+        ]
+      }
+    ],
+    "name": "001_Ucak_Bileti",
+    "description": "",
+    "id": "001-ucak-bileti",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/enuygun.feature",
+    "tags": [
+      {
+        "name": "@enuygun",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
